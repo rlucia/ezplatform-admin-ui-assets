@@ -15,11 +15,13 @@
   @include border-radius($badge-border-radius);
   @include transition($badge-transition);
 
+/*
   @at-root a#{&} {
     @include hover-focus {
       text-decoration: none;
     }
   }
+*/
 
   // Empty badges collapse automatically
   &:empty {
